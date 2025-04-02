@@ -37,7 +37,7 @@
   ],
   "scripts": {
     "start": "vite preview",
-    "build": "vite build",
+    "build": "vite build --base=./",
     "test": "pnpm run test:all",
     "test:all": "pnpm run test:type && pnpm run test:lint && pnpm run test:format && pnpm run test:app --run",
     "test:type": "tsc",
